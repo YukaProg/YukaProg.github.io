@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*Google Fontsの読み込み*/
+@import url("https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Lato:300,400,400i,700|M+PLUS+Rounded+1c::300,400,700");
+/*Hannariの読み込み*/
+@import url("https://fonts.googleapis.com/earlyaccess/hannari.css");
+
+
+/*タグの初期設定*/
+
+html{
+    height: 100%;
+	margin:0px;
+	padding:0px;
+	font-size:10px;
+}
+body {
+    min-height: 100%;
+	line-height:1.5;
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+figcaption,
+div{
+    margin: 0px;
+    padding: 0px;
+	font-weight:normal;
+	font-size:100%;
+	box-sizing: border-box;
+}
+
+
+ol, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+/*汎用クラス*/
+
+.cf::after,
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*リンク時の設定*/
+a{
+display: inline-block;
+text-decoration: none;
+color:#4D4D4D;
+}
+a:link,
+a:visted,
+a:hover,
+a:active{
+text-decoration: none;
+
+
+}
+
+
+/*フォントの設定*/
+/*見出しの設定*/
+h1,
+h2,
+h3,
+h4,
+h5{
+font-family: 'Lato', 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Droid Sans', 'Hannari', 'ＭＳ Ｐ明朝', 'MS PMincho','ヒラギノ明朝 Pro W3', "Hiragino Mincho Pro", 'serif';
+letter-spacing: 0.2em;
+font-weight: 300;
+color:#4D4D4D;
+}
+
+/*本文の設定*/
+table,
+p, 
+li{
+font-family: 'Lato', 'Avenir', 'Helvetica Neue', 'Helvetica', 'Arial', 'Droid Sans', 'M PLUS Rounded 1c', 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', "sans-serif";
+font-weight: 400;
+letter-spacing: 0.1em;
+color:#626668;
+font-size: 1.4rem;
+}
+
+.scriptFont{
+font-family: 'Bilbo Swash Caps', cursive;
+
+}
+
+.english{
+color:#706E6E;
+}
+
+
+
+/*
+font-family: "Hannari";
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Bilbo Swash Caps', cursive;
+*/
